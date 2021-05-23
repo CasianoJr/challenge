@@ -4,23 +4,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Whitsundays</title>
+
+    <!-- bootstrap 5 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+
+    <!-- Fontawesome 5.15.3 -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+
+    <!-- AOS CSS  -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom styles,  -->
+    <!-- Note: I have to put some CSS and Javascripts in the main page, avoiding bugs during deploy -->
     <link href="./style.css" rel="stylesheet" />
+    
     <style>
-        .hidden{display: none;}
+      .hidden {
+        display: none;
+      }
     </style>
   </head>
   <body>
+    <!-- Nav Bar  -->
     <nav
       id="navbar-example2"
       class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark"
@@ -78,6 +91,8 @@
         </div>
       </div>
     </nav>
+
+    <!-- Contents  -->
     <div
       data-bs-spy="scroll"
       data-bs-target="#navbar-example2"
@@ -228,7 +243,8 @@
         <div class="slideshowstyle mx-auto mt-5">
           <ul class="nav justify-content-center">
             <li class="nav-item">
-              <a id="video"
+              <a
+                id="video"
                 class="nav-link nav-link2 text-white active"
                 aria-current="page"
                 href="#four"
@@ -236,7 +252,8 @@
               >
             </li>
             <li class="nav-item">
-              <a id="photography"
+              <a
+                id="photography"
                 class="nav-link nav-link2 text-white"
                 aria-current="page"
                 href="#four"
@@ -244,7 +261,8 @@
               >
             </li>
             <li class="nav-item">
-              <a id="social"
+              <a
+                id="social"
                 class="nav-link nav-link2 text-white"
                 aria-current="page"
                 href="#four"
@@ -252,7 +270,8 @@
               >
             </li>
             <li class="nav-item">
-              <a id="pr"
+              <a
+                id="pr"
                 class="nav-link nav-link2 text-white"
                 aria-current="page"
                 href="#four"
@@ -260,7 +279,8 @@
               >
             </li>
             <li class="nav-item">
-              <a id="radio"
+              <a
+                id="radio"
                 class="nav-link nav-link2 text-white"
                 aria-current="page"
                 href="#four"
@@ -289,20 +309,33 @@
         </div>
         <div class="mt-5 row slideshowOption hidden" id="photographyShow">
           <div class="col-lg-12">
-            <img width="320" height="auto" src="https://images.pexels.com/photos/918281/pexels-photo-918281.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
-            <img width="320" height="auto" src="https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
-            <img width="320" height="auto" src="https://images.pexels.com/photos/7986531/pexels-photo-7986531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
-          <div class="lead mx-auto">Lorem dolor set amit.</div>
+            <img
+              width="320"
+              height="auto"
+              src="https://images.pexels.com/photos/918281/pexels-photo-918281.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            />
+            <img
+              width="320"
+              height="auto"
+              src="https://images.pexels.com/photos/3062541/pexels-photo-3062541.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+            />
+            <img
+              width="320"
+              height="auto"
+              src="https://images.pexels.com/photos/7986531/pexels-photo-7986531.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            />
+            <div class="lead mx-auto">Lorem dolor set amit.</div>
           </div>
         </div>
         <div class="mt-5 row slideshowOption hidden" id="socialShow">
           <div class="lead text-center">
-            <div class="h3"><i class="fab fa-facebook-square"></i> Facebook</div>
+            <div class="h3">
+              <i class="fab fa-facebook-square"></i> Facebook
+            </div>
             <div class="h3"><i class="fab fa-twitter"></i> Twitter</div>
             <div class="h3"><i class="fab fa-instagram"></i> Instagram</div>
             <div class="h3"><i class="fab fa-google"></i> Google</div>
           </div>
-         
         </div>
         <div class="mt-5 row slideshowOption hidden" id="prShow">
           <div class="lead text-center">
@@ -311,25 +344,27 @@
             <div class="lead">081-124-5125</div>
             <div class="lead">081-124-5125</div>
           </div>
-         
         </div>
         <div class="mt-5 row slideshowOption hidden" id="radioShow">
           <div class="lead text-center">
-            <div>
-              <i class="fas fa-broadcast-tower"></i> RADIO
-            </div>
+            <div><i class="fas fa-broadcast-tower"></i> RADIO</div>
             <div class="display-5 mt-3">Details will be posted soon.</div>
           </div>
-         
         </div>
       </div>
 
       <div class="sectioned">
         <div class="display-2 text-white text-center mt-5">Thank you!</div>
-        <div class="lead text-white text-center mt-5 pt-5">casianojrfernandez@gmail.com</div>
+        <div class="lead text-white text-center mt-5 pt-5">
+          casianojrfernandez@gmail.com
+        </div>
       </div>
     </div>
+
+    <!-- Jquery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Bootstrap 5 JS  -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -340,63 +375,61 @@
       integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS JS  -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Custom Javascript -->
     <script>
       AOS.init();
 
       $(document).ready(function () {
-
-        // on click 
-
+        // on main NAV click
         $(".nav-link").click(function () {
           $(".nav-link").removeClass("active");
           $(this).addClass("active");
         });
 
-        // slideshow on click 
-
+        // on NAV slideshow click
         $(".nav-link2").click(function () {
           $(".nav-link2").removeClass("btn btn-primary");
           $(".slideshowOption").addClass("hidden");
           $(this).addClass("btn btn-primary");
         });
 
-        // scrollspy 
+        // scrollspy
+        // Note: I dont like the bootstrap 5 scrollspy it provides stil background
+        $(window).bind("scroll", function () {
+          var currentTop = $(window).scrollTop();
+          var elems = $(".sectioned");
+          elems.each(function (index) {
+            var elemTop = $(this).offset().top;
+            var elemBottom = elemTop + $(this).height();
+            if (currentTop >= elemTop && currentTop <= elemBottom) {
+              var id = $(this).attr("id");
+              var navElem = $('a[href="#' + id + '"]');
+              $(".nav-link").removeClass("active");
+              navElem.addClass("active");
+            }
+          });
+        });
 
-        $(window).bind('scroll', function() {
-    var currentTop = $(window).scrollTop();
-    var elems = $('.sectioned');
-    elems.each(function(index){
-      var elemTop 	= $(this).offset().top;
-      var elemBottom 	= elemTop + $(this).height();
-      if(currentTop >= elemTop && currentTop <= elemBottom){
-        var id 		= $(this).attr('id');
-        var navElem = $('a[href="#' + id+ '"]');
-        $(".nav-link").removeClass("active");
-       navElem.addClass('active');
-      }
-    })
-});
-
-// slideshow pages 
-$("#video").on("click", function(){
-  $("#videoShow").removeClass("hidden")
-})
-$("#photography").on("click", function(){
-  $("#photographyShow").removeClass("hidden")
-})
-$("#social").on("click", function(){
-  $("#socialShow").removeClass("hidden")
-})
-$("#pr").on("click", function(){
-  $("#prShow").removeClass("hidden")
-})
-$("#radio").on("click", function(){
-  $("#radioShow").removeClass("hidden")
-})
-
-
-
+        // slideshow pages
+        $("#video").click(function () {
+          $("#videoShow").removeClass("hidden");
+        });
+        $("#photography").click(function () {
+          $("#photographyShow").removeClass("hidden");
+        });
+        $("#social").click(function () {
+          $("#socialShow").removeClass("hidden");
+        });
+        $("#pr").click(function () {
+          $("#prShow").removeClass("hidden");
+        });
+        $("#radio").click(function () {
+          $("#radioShow").removeClass("hidden");
+        });
       });
     </script>
   </body>
